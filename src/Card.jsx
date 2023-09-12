@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import locationIcon from './assets/location-dot-solid.svg';
 
 function Card(props) {
     return (
@@ -6,7 +7,7 @@ function Card(props) {
             <img className="card-image" src={props.image} />
             <div className="info">
                 <div className="location">
-                    <img className="location-img" src="../public/location-dot-solid.svg" />
+                    <img className="location-img" src={locationIcon} />
                     <span>{props.location}</span>
                     <a href={props.url}>View on Google Maps</a>
                 </div>
