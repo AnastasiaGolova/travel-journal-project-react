@@ -1,5 +1,6 @@
 import forum from './assets/forum.jpg';
 import hogwarts from './assets/hogwarts.jpg'
+import sagrada from './assets/sagrada_familia.jpg'
 
 export default [
     {
@@ -9,7 +10,7 @@ export default [
         startDate: "26 Nov, 2018",
         endDate: "1 Dec, 2018",
         description: "The Roman Forum, also known by its Latin name Forum Romanum (Italian: Foro Romano), is a rectangular forum (plaza) surrounded by the ruins of several important ancient government buildings at the center of the city of Rome. ",
-        image: {forum}
+        image: forum
     },
     {
         title: "Sagrada Família",
@@ -18,7 +19,7 @@ export default [
         startDate: "20 Apr, 2018",
         endDate: "27 Apr, 2018",
         description: "the Sagrada Família is an under construction church in the Eixample district of Barcelona, Catalonia, Spain. It is the largest unfinished Catholic church in the world. Designed by architect Antoni Gaudí (1852–1926), his work on Sagrada Família is part of a UNESCO World Heritage Site.",
-        image: './assets/sagrada_familia.jpg'
+        image: sagrada
     },
     {
         title: "Universal Orlando",
@@ -27,6 +28,6 @@ export default [
         startDate: "30 Sep, 2019",
         endDate: "1 Oct, 2019",
         description: "The Wizarding World of Harry Potter is a themed area spanning two theme parks—Islands of Adventure and Universal Studios Florida—at the Universal Orlando Resort in Orlando, Florida. The area is themed to the Harry Potter media franchise, adapting elements from the film series and novels by J. K. Rowling.",
-        image: {hogwarts}
+        image: hogwarts
     }
 ]
