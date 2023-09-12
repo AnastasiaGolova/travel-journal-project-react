@@ -1,8 +1,9 @@
+import earthIcon from './assets/earth-americas-solid.svg';
 
 function Nav() {
     return (
         <div className="nav">
-            <img src="../public/earth-americas-solid.svg" />
+            <img src={earthIcon} />
             <h3>my travel journal.</h3>
         </div>
     )
